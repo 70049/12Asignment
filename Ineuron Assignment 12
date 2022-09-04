@@ -1,5 +1,7 @@
 Q1.   Write a python script to reverse a number.
-Ans.   
+Ans.   n=input("Enter a number: ")
+       a=n[::-1]
+       print(int(a))
 
 Q2.   Write a python script oto check wether a given number is Prime or Not.
 Ans.   a=int(input("Enter a number: "))
