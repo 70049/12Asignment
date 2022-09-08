@@ -45,7 +45,13 @@ Ans.   a=int(input("Enter a Number: "))
              print(e)
              
 Q7.   Write a python script to check wether a given pair of numbers are co-prime number or not.
-Ans.   
+Ans.   def gcd(p,q):
+           while q != 0:
+             p, q = q, p%q
+            return p
+       def is_coprime(x, y):
+           return gcd(x, y) == 1
+       print(is_coprime(17, 13))
 
 Q8.   Write a python script to print N term of fibonacci series.
 Ans.   n=int(input("enter a number: "))
@@ -59,5 +65,24 @@ Ans.   n=int(input("enter a number: "))
               b=s
      
 Q9.   Write a python script to calculate LCM of two numbers.
-Ans.   a=
+Ans.   a,b=raw_input("enter two numbers (with space in between: ").split()
+       if (a>b):
+           int x==a
+       else:
+           int x==b
+      for i in range (1,x):
+             if (a%i==0 & b%i==0):
+             int hcf=i
+       print ("hcf of both is: ", hcf)
+
+Q10.  Write a python script to find a LCM of two Number.
+ANs.    a,b=raw_input("enter two numbers (with space in between: ").split()
+        if (a>b):
+           int x==a
+        else:
+           int x==b
+        for j in range (x,a*b):
+               if (j%a==0 & j%b==0):
+               int lcm=j
+        print ("lcm of both is: ", lcm)
                   
